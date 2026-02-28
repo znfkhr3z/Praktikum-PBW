@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+
+<form>
+    <table cellpadding="5">
+
+        <tr>
+            <td><label for="nama">Nama</label></td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="nama"></td>
+        </tr>
+
+        <tr>
+            <td><label for="umur">Umur</label></td> 
+            <td>:</td>
+            <td><input type="number" id="umur" name="umur"></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>:</td>
+            <td><input type="email" id="email" name="email"></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td>:</td>
+            <td><input type="password" id="password" name="password"></td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+                <input type="radio" name="jk" value="Perempuan"> Perempuan
+            </td>
+        </tr>
+
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="hobi" value="Musik"> Musik
+                <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+                <input type="checkbox" name="hobi" value="Menyanyi"> Menyanyi
+            </td>
+        </tr>
+
+        <tr>
+            <td>Pilih Kota</td>
+            <td>:</td>
+            <td>
+                <select name="kota">
+                    <option>Jakarta</option>
+                    <option>Bandung</option>
+                    <option>Yogyakarta</option>
+                    <option>Bali</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Upload Foto</td>
+            <td>:</td>
+            <td><input type="file" name="foto"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="submit" value="Daftar"></td>
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>
