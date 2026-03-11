@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Input Nilai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2>Cek Huruf Mutu</h2>
+        <hr>
+        
+        <div class="input-group">
+            <label for="nim">Nomor Induk Mahasiswa (NIM)</label>
+            <input type="text" id="nim" placeholder="Contoh: 22010123">
+        </div>
+
+        <div class="input-group">
+            <label for="nilai">Nilai Mata Kuliah</label>
+            <input type="number" id="nilai" placeholder="Rentang 0 - 100">
+        </div>
+
+        <button id="btnCek">Cek Nilai</button>
+
+        <div id="hasil" class="result-box hidden"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
